@@ -1,0 +1,54 @@
+/* 
+Color: #0779E4 (Blue)
+*/
+
+.navbar{
+    background-color: #0779E4;
+    font-size: clamp(0.7rem, 0rem + 1vw,1rem);
+}
+
+.nav-news{
+    border: 1px white solid;
+    padding: 0.5rem 0.2rem 0.5rem 0.5rem;
+    color: white;
+    font-size: clamp(0.7rem, 0rem + 1vw,1rem);
+}
+
+.nav-app{
+    background-color: white;
+    color: #0779E4;
+    padding: 0.55rem 0.5rem 0.55rem 0.2rem;
+    font-size: clamp(0.7rem, 0rem + 1vw,1rem);
+}
+
+.nav-link{
+    color: rgba(255, 255, 255, 0.80);
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.active-link {
+    color: white;
+}
+
+.btn{
+    color: white;
+    border-color: white;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #0779E4;
+}
+
+.navbar-toggler{
+    background-color: white;
+    border: none;
+}
+
+.search{
+    font-size: clamp(0.7rem, 0rem + 1vw,1rem);
+}
